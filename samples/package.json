@@ -1,0 +1,16 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.19.2",
+    "lodash": "^4.17.21",
+    "axios": "~1.7.0",
+    "left-pad": "*",
+    "react": "latest",
+    "internal-lib": "git+https://example.com/internal-lib.git"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "eslint": ">=8.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+# synthetic sample for the audit demo
+requests==2.31.0
+flask>=2.0
+django
+numpy~=1.26.0
+urllib3<2
+boto3==1.34.*
+-e git+https://example.com/pkg.git#egg=customlib
+pytest==8.2.0 ; python_version >= "3.9"
