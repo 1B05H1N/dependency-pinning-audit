@@ -1,5 +1,5 @@
 # synthetic sample for the audit demo
-requests==2.31.0
+requests==2.33.0
 flask>=2.0
 django
 numpy~=1.26.0
