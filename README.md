@@ -1,5 +1,7 @@
 # dependency-pinning-audit
 
+[![CI](https://github.com/1B05H1N/dependency-pinning-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/1B05H1N/dependency-pinning-audit/actions/workflows/ci.yml)
+
 Audit dependency manifests for unpinned or risky version specs - a lightweight
 supply-chain hygiene check. Handles Python `requirements.txt` and Node
 `package.json`. Pure Python standard library, no dependencies.
