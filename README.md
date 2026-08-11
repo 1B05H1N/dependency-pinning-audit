@@ -21,13 +21,13 @@ supply-chain hygiene check. Handles Python `requirements.txt` and Node
 ## Files
 
 - `dep_audit.py` - CLI and audit engine
-- `samples/requirements.txt`, `samples/package.json` - example manifests
+- `samples/requirements.sample.txt`, `samples/package.sample.json` - example fixtures
 - `test_dep_audit.py` - unit tests
 
 ## Usage
 
 ```bash
-python3 dep_audit.py samples/requirements.txt samples/package.json
+python3 dep_audit.py samples/requirements.sample.txt samples/package.sample.json
 python3 dep_audit.py requirements.txt --fail-on medium --json findings.json
 ```
 
